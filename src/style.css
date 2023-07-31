@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  position: relative;
+}
+
+.container-principal {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  max-height: 713px;
+}
+.container-principal .home-banner {
+  width: 100%;
+  max-height: 713px;
+  min-height: 713px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  height: 100%;
+}
+.container-principal .banner-mobile {
+  display: none;
+}
+
+header {
+  display: block;
+}
+header nav {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  top: 0;
+  position: absolute;
+}
+header nav img {
+  width: 190px;
+  height: 40px;
+  margin: 20px;
+}
+header nav .services {
+  display: flex;
+}
+header nav .services h3 {
+  color: white;
+  margin: 22px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+header nav .services button {
+  width: 130px;
+  padding: 3px;
+  border-radius: 29px;
+  border: none;
+  font-size: 16px;
+  margin: 5px;
+  font-family: "Fraunces", serif;
+}
+header .creatives {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  width: 100%;
+  font-size: 900;
+  color: white;
+  font-family: "Fraunces", serif;
+}
+header .creatives .down-arrow {
+  margin-top: 20px;
+}
+
+.container-yellow {
+  display: flex;
+  width: 100%;
+  max-height: 530px;
+}
+.container-yellow .container-text-yellow {
+  width: 50%;
+  max-height: 530px;
+  padding: 10%;
+}
+.container-yellow .container-text-yellow h2 {
+  font-size: 43px;
+  font-family: "Fraunces", serif;
+}
+.container-yellow .container-text-yellow p {
+  margin-top: 20px;
+  color: rgb(160, 158, 158);
+  font-size: 17px;
+  font-family: "Barlow", sans-serif;
+}
+.container-yellow .container-text-yellow button {
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Fraunces", serif;
+  background: none;
+  border-bottom: 5px solid rgba(255, 255, 0, 0.541);
+}
+.container-yellow .container-photo-yellow {
+  max-height: 530px;
+  width: 50%;
+}
+.container-yellow .container-photo-yellow img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-pink {
+  display: flex;
+  width: 100%;
+}
+.container-pink .container-photo-pink {
+  max-height: 530px;
+  width: 50%;
+}
+.container-pink .container-photo-pink img {
+  height: 100%;
+  width: 100%;
+}
+.container-pink .container-text-pink {
+  width: 50%;
+  max-height: 530px;
+  padding: 10%;
+}
+.container-pink .container-text-pink h2 {
+  font-size: 43px;
+  font-family: "Fraunces", serif;
+}
+.container-pink .container-text-pink p {
+  margin-top: 20px;
+  color: rgb(160, 158, 158);
+  font-size: 17px;
+  font-family: "Barlow", sans-serif;
+}
+.container-pink .container-text-pink button {
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Fraunces", serif;
+  background: none;
+  border-bottom: 5px solid rgba(255, 53, 120, 0.473);
+}
+
+.container-two {
+  display: flex;
+  width: 100%;
+  min-height: 450px;
+}
+.container-two .container-photo-green {
+  display: block;
+  width: 50%;
+}
+.container-two .container-photo-green img {
+  width: 100%;
+  height: 100%;
+}
+.container-two .container-photo-green .container-green-text {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.container-two .container-photo-green .container-green-text h4 {
+  margin-top: -60%;
+  font-size: 33px;
+  font-family: "Fraunces", serif;
+  color: rgb(0, 48, 0);
+}
+.container-two .container-photo-green .container-green-text p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(0, 48, 0);
+  font-family: "Barlow", sans-serif;
+}
+.container-two .container-photo-blue {
+  display: block;
+  width: 50%;
+}
+.container-two .container-photo-blue img {
+  width: 100%;
+  height: 100%;
+}
+.container-two .container-photo-blue .container-blue-text {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.container-two .container-photo-blue .container-blue-text h4 {
+  margin-top: -60%;
+  font-size: 33px;
+  font-family: "Fraunces", serif;
+  color: rgb(0, 61, 117);
+}
+.container-two .container-photo-blue .container-blue-text p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(0, 61, 117);
+  font-family: "Barlow", sans-serif;
+}
+
+.section-grid .client {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 25px;
+  color: gray;
+}
+.section-grid .client-message {
+  display: grid;
+}
+
+.photos {
+  display: flex;
+  max-height: 700px;
+  width: 100%;
+}
+.photos .photos1, .photos .photos2, .photos .photos3, .photos .photos4 {
+  width: 25%;
+}
+.photos .photos1 img, .photos .photos2 img, .photos .photos3 img, .photos .photos4 img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: rgb(136, 218, 190);
+  width: 100%;
+  max-height: 300px;
+  text-align: center;
+}
+footer .logo-sunnyside-footer {
+  width: 150px;
+  height: 30px;
+  margin-top: 50px;
+  filter: invert(100) opacity(0.3) drop-shadow(0 0 0 rgb(10, 54, 24));
+}
+footer .footer-services {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 25px;
+  font-family: "Barlow", sans-serif;
+  color: rgba(9, 80, 50, 0.575);
+}
+footer .footer-services p {
+  margin: 15px;
+}
+footer .logos {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+}
+footer .logos img {
+  margin: 15px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    display: block;
+  }
+  header nav .services h3 {
+    margin: 15px;
+    margin-top: 24px;
+  }
+  header .creatives .creatives-text {
+    font-size: 45px;
+  }
+  header .creatives .down-arrow {
+    margin-top: 20px;
+    width: 30px;
+    height: 90px;
+  }
+  .container-yellow {
+    max-height: 430px;
+  }
+  .container-yellow .container-text-yellow {
+    max-height: 430px;
+    padding: 10%;
+  }
+  .container-yellow .container-text-yellow h2 {
+    font-size: 32px;
+  }
+  .container-yellow .container-text-yellow p {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .container-yellow .container-text-yellow button {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .container-yellow .container-photo-yellow {
+    max-height: 430px;
+  }
+  .container-pink .container-photo-pink {
+    max-height: 430px;
+  }
+  .container-pink .container-text-pink {
+    max-height: 430px;
+    padding: 10%;
+  }
+  .container-pink .container-text-pink h2 {
+    font-size: 32px;
+  }
+  .container-pink .container-text-pink p {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .container-pink .container-text-pink button {
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .container-two .container-photo-green {
+    display: block;
+    width: 50%;
+  }
+  .container-two .container-photo-green img {
+    width: 100%;
+  }
+  .container-two .container-photo-green .container-green-text {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .container-two .container-photo-green .container-green-text h4 {
+    margin-top: -45%;
+    font-size: 24px;
+    font-family: "Fraunces", serif;
+    color: rgb(0, 48, 0);
+  }
+  .container-two .container-photo-green .container-green-text p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(0, 48, 0);
+    font-family: "Barlow", sans-serif;
+  }
+  .container-two .container-photo-blue {
+    display: block;
+    width: 50%;
+  }
+  .container-two .container-photo-blue img {
+    width: 100%;
+  }
+  .container-two .container-photo-blue .container-blue-text {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .container-two .container-photo-blue .container-blue-text h4 {
+    margin-top: -45%;
+    font-size: 24px;
+    font-family: "Fraunces", serif;
+    color: rgb(0, 61, 117);
+  }
+  .container-two .container-photo-blue .container-blue-text p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(0, 61, 117);
+    font-family: "Barlow", sans-serif;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-principal {
+    min-height: 713px;
+  }
+  .container-principal .home-banner {
+    display: none;
+  }
+  .container-principal .banner-mobile {
+    display: block;
+    width: 100%;
+    max-height: 420px;
+    min-height: 713px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  .container-principal .creatives .creatives-text {
+    font-size: 38px;
+  }
+  .container-yellow {
+    max-height: 300px;
+  }
+  .container-yellow .container-text-yellow {
+    max-height: 300px;
+    padding: 10%;
+  }
+  .container-yellow .container-text-yellow h2 {
+    font-size: 22px;
+  }
+  .container-yellow .container-text-yellow p {
+    margin-top: 5px;
+    font-size: 11px;
+  }
+  .container-yellow .container-text-yellow button {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .container-yellow .container-photo-yellow {
+    max-height: 300px;
+  }
+  .container-pink .container-photo-pink {
+    max-height: 300px;
+  }
+  .container-pink .container-text-pink {
+    max-height: 300px;
+    padding: 10%;
+  }
+  .container-pink .container-text-pink h2 {
+    font-size: 22px;
+  }
+  .container-pink .container-text-pink p {
+    margin-top: 5px;
+    font-size: 11px;
+  }
+  .container-pink .container-text-pink button {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .container-two {
+    min-height: 270px;
+  }
+  .container-two .container-photo-green img {
+    height: 100%;
+  }
+  .container-two .container-photo-green .container-green-text {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container-two .container-photo-green .container-green-text h4 {
+    margin-top: -120px;
+    font-size: 20px;
+  }
+  .container-two .container-photo-green .container-green-text p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .container-two .container-photo-blue {
+    display: block;
+    width: 50%;
+  }
+  .container-two .container-photo-blue img {
+    width: 100%;
+    height: 100%;
+  }
+  .container-two .container-photo-blue .container-blue-text {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container-two .container-photo-blue .container-blue-text h4 {
+    margin-top: -120px;
+    font-size: 20px;
+    font-family: "Fraunces", serif;
+    color: rgb(0, 61, 117);
+  }
+  .container-two .container-photo-blue .container-blue-text p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(0, 61, 117);
+    font-family: "Barlow", sans-serif;
+  }
+}/*# sourceMappingURL=style.css.map */
